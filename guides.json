@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "installing-cfw",
+    "title": "Installing Custom Firmware",
+    "tags": ["cfw-install"]
+  },
+  {
+    "slug": "downgrading",
+    "title": "Downgrading PSP Firmware",
+    "tags": ["downgrade"]
+  },
+  {
+    "slug": "save-modding",
+    "title": "Save Modding Basics",
+    "tags": ["save-modding"]
+  }
+]

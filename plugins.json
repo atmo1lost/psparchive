@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "clockup",
+    "title": "ClockUp",
+    "description": "CPU/bus clock overclock plugin with a toggle menu and safe presets.",
+    "compat": ["1000", "2000", "3000"],
+    "thumb": "",
+    "download": "#"
+  },
+  {
+    "slug": "screenshoter",
+    "title": "Screenshoter",
+    "description": "Adds a hotkey to capture in-game screenshots straight to the memory stick.",
+    "compat": ["2000", "3000", "go"],
+    "thumb": "",
+    "download": "#"
+  }
+]
