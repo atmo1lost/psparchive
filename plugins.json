@@ -1,18 +1,39 @@
 [
   {
-    "slug": "clockup",
-    "title": "ClockUp",
-    "description": "CPU/bus clock overclock plugin with a toggle menu and safe presets.",
-    "compat": ["1000", "2000", "3000"],
-    "thumb": "",
-    "download": "#"
+    "slug": "betterbright-psp",
+    "title": "BetterBright PSP",
+    "description": "BetterBright, a PSP brightness control plugin for ARK-4 / FasterARK custom firmware.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000"
+    ],
+    "thumb": "plugins/thumbs/betterbright-psp.png",
+    "download": "plugins/files/betterbright-psp.zip"
   },
   {
-    "slug": "screenshoter",
-    "title": "Screenshoter",
-    "description": "Adds a hotkey to capture in-game screenshots straight to the memory stick.",
-    "compat": ["2000", "3000", "go"],
-    "thumb": "",
-    "download": "#"
+    "slug": "batterywarning-psp",
+    "title": "BatteryWarning PSP",
+    "description": "BatteryWarning is a plugin that will warn you when your PSP battery is running low on charge. installation guide: https://www.gamebrew.org/wiki/BatteryWarning_PSP#Installation",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/batterywarning-psp.png",
+    "download": "plugins/files/batterywarning-psp.zip"
+  },
+  {
+    "slug": "cxmb",
+    "title": "CXMB",
+    "description": "custom theme support (ctf support). installation guide: https://psparchive.github.io/guide.html?g=installing-cxmb",
+    "compat": [
+      "1000",
+      "2000",
+      "3000"
+    ],
+    "thumb": "plugins/thumbs/cxmb.bmp",
+    "download": "plugins/files/cxmb.zip"
   }
 ]

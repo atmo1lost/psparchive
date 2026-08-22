@@ -1,18 +1,62 @@
 [
   {
-    "slug": "midnight-xmb",
-    "title": "Midnight XMB",
-    "description": "Dark minimal theme with a redesigned XMB icon set and custom font.",
-    "compat": ["1000", "2000", "3000"],
-    "thumb": "",
-    "download": "#"
+    "slug": "3d-theme",
+    "title": "3D Theme",
+    "description": "",
+    "compat": [
+      "PTF"
+    ],
+    "thumb": "themes/thumbs/3dtheme.png",
+    "download": "themes/files/3D_Theme.ptf"
   },
   {
-    "slug": "retro-wave",
-    "title": "Retro Wave",
-    "description": "Synthwave-inspired colors and animated background, built for CFW's theme engine.",
-    "compat": ["2000", "3000", "go"],
-    "thumb": "",
-    "download": "#"
+    "slug": "patchwork-heros",
+    "title": "1 Million Ton no Barabara (Patchwork Heroes)",
+    "description": "",
+    "compat": [
+      "PTF"
+    ],
+    "thumb": "themes/thumbs/patchworkheros.png",
+    "download": "themes/files/1MillionTonnoBarabara.ptf"
+  },
+  {
+    "slug": "windows-xp",
+    "title": "Windows xp",
+    "description": "",
+    "compat": [
+      "PTF"
+    ],
+    "thumb": "themes/thumbs/winxp.png",
+    "download": "themes/files/WindowXP.ptf"
+  },
+  {
+    "slug": "echochrome-black",
+    "title": "echochrome black",
+    "description": "",
+    "compat": [
+      "PTF"
+    ],
+    "thumb": "themes/thumbs/echochrome-black.jpg",
+    "download": "themes/files/echochrome-black.ptf"
+  },
+  {
+    "slug": "echochrome-white",
+    "title": "echochrome white",
+    "description": "",
+    "compat": [
+      "PTF"
+    ],
+    "thumb": "themes/thumbs/echochrome-white.jpg",
+    "download": "themes/files/echochrome-white.ptf"
+  },
+  {
+    "slug": "hells-head",
+    "title": "hells head",
+    "description": "",
+    "compat": [
+      "PTF"
+    ],
+    "thumb": "themes/thumbs/hells-head.png",
+    "download": "themes/files/hells-head.bin"
   }
 ]

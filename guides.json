@@ -1,17 +1,22 @@
 [
   {
     "slug": "installing-cfw",
-    "title": "Installing Custom Firmware",
+    "title": "installing custom firmware",
     "tags": ["cfw-install"]
   },
   {
     "slug": "downgrading",
-    "title": "Downgrading PSP Firmware",
+    "title": "downgrading PSP firmware",
     "tags": ["downgrade"]
   },
   {
-    "slug": "save-modding",
-    "title": "Save Modding Basics",
-    "tags": ["save-modding"]
+    "slug": "adding-plugins",
+    "title": "adding plugins",
+    "tags": ["plugins", "adding", "seplugins"]
+  },
+  {
+    "slug": "installing-cxmb",
+    "title": "how to install cxmb",
+    "tags": ["plugins", "adding", "cxmb"]
   }
 ]

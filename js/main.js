@@ -46,7 +46,7 @@ async function initDetail(kind) {
   const content = document.getElementById("content");
 
   if (!item) {
-    content.innerHTML = "<h1>Not found</h1><p>No entry matches that page.</p>";
+    content.innerHTML = "<h1>not found</h1><p>no entry matches that page.</p>";
     return;
   }
 
@@ -59,7 +59,7 @@ async function initDetail(kind) {
     <h1>${item.title}</h1>
     <div id="tags">${compat}</div>
     <p>${item.description}</p>
-    <p><a href="${item.download}">Download</a></p>
+    <p><a href="${item.download}" class="button">download</a></p>
   `;
 }
 
@@ -99,7 +99,7 @@ async function loadGuide(slug, guides) {
   const contentEl = document.getElementById("content");
 
   if (!meta) {
-    contentEl.innerHTML = "<h1>Not found</h1><p>No guide matches that page.</p>";
+    contentEl.innerHTML = "<h1>not found</h1><p>no guide matches that page.</p>";
     return;
   }
 
@@ -110,6 +110,39 @@ async function loadGuide(slug, guides) {
   const tagsHtml = meta.tags.map(t => `<span class="tag">${t}</span>`).join("");
 
   contentEl.innerHTML = `<div id="tags">${tagsHtml}</div>${html}`;
+}
+
+const lastVisit = localStorage.getItem("pspVisitTime");
+const now = Date.now();
+const oneHour = 60 * 60 * 1000;
+
+if (!lastVisit || now - Number(lastVisit) >= oneHour) {
+  console.log("counting visit");
+
+  fetch("https://countapi.mileshilliard.com/api/v1/hit/psp-visits")
+    .then(response => response.json())
+    .then(data => {
+      localStorage.setItem("pspVisitTime", now);
+
+      document.querySelector(".titleandvisits").innerHTML =
+        "poques psp archive<br>visits: " + data.value;
+    })
+    .catch(error => {
+      console.error("failed to get visit count:", error);
+    });
+
+} else {
+  console.log("getting current visits");
+
+  fetch("https://countapi.mileshilliard.com/api/v1/get/psp-visits")
+    .then(response => response.json())
+    .then(data => {
+      document.querySelector(".titleandvisits").innerHTML =
+        "poques psp archive<br>visits: " + data.value;
+    })
+    .catch(error => {
+      console.error("failed to get visit count:", error);
+    });
 }
 
 async function init() {
