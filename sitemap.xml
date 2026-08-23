@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://psparchive.pages.dev/</loc>
   </url>
-
   <url>
-    <loc>https://psparchive.pages.dev/themes/</loc>
+    <loc>https://psparchive.pages.dev/guide.html</loc>
   </url>
-
   <url>
-    <loc>https://psparchive.pages.dev/plugins/</loc>
+    <loc>https://psparchive.pages.dev/themes.html</loc>
   </url>
-
-
+  <url>
+    <loc>https://psparchive.pages.dev/plugins.html</loc>
+  </url>
 </urlset>
