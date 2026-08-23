@@ -35,5 +35,278 @@
     ],
     "thumb": "plugins/thumbs/cxmb.bmp",
     "download": "plugins/files/cxmb.zip"
+  },
+  {
+    "slug": "cwcheat-psp",
+    "title": "CWCheat PSP",
+    "description": "CWCheat is a plugin for using modified codes and cheats on PSP games. It can perform code searches and also able to take screenshots.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/cwcheat-psp.png",
+    "download": "plugins/files/cwcheat-psp.7z"
+  },
+  {
+    "slug": "noumd-rewrite",
+    "title": "NoUMD Rewrite",
+    "description": "This plugin is the rewrite of the NoUMD plugin for PSP, which completely disables your PSP's UMD Drive.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/noumd-rewrite.png",
+    "download": "plugins/files/noumd-rewrite.7z"
+  },
+  {
+    "slug": "psp-sidecar",
+    "title": "PSP Sidecar",
+    "description": "Fast XMB Game Caching.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/psp-sidecar.png",
+    "download": "plugins/files/psp-sidecar.php"
+  },
+  {
+    "slug": "nipvp",
+    "title": "nipvp",
+    "description": "A plugin that enables PvP in Naruto Shippuden: Ultimate Ninja Impact.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/nipvp.jpg",
+    "download": "plugins/files/nipvp.7z"
+  },
+  {
+    "slug": "vshbgm",
+    "title": "vshbgm",
+    "description": "Lets you play a looping tune on the VSH.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/vshbgm.png",
+    "download": "plugins/files/vshbgm.php"
+  },
+  {
+    "slug": "missyhud-prx",
+    "title": "missyhud.prx",
+    "description": "A plugin to display a simple HUD.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/missyhud-prx.png",
+    "download": "plugins/files/missyhud-prx.prx"
+  },
+  {
+    "slug": "battery-icon",
+    "title": "battery_icon",
+    "description": "Shows a blinking indicator when the battery is low.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/battery-icon.png",
+    "download": "plugins/files/battery-icon.7z"
+  },
+  {
+    "slug": "daxter-trophies",
+    "title": "Daxter Trophies",
+    "description": "Trophies for Daxter.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/daxter-trophies.png",
+    "download": "plugins/files/daxter-trophies.zip"
+  },
+  {
+    "slug": "ms-change",
+    "title": "MS Change",
+    "description": "Emulate inserting or removing Memory Stick.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/ms-change.png",
+    "download": "plugins/files/ms-change.7z"
+  },
+  {
+    "slug": "psp-gta-trophies",
+    "title": "PSP GTA Trophies",
+    "description": "Trophies for Liberty and Vice City Stories.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/psp-gta-trophies.png",
+    "download": "plugins/files/psp-gta-trophies.7z"
+  },
+  {
+    "slug": "ppsspp-gpihook",
+    "title": "ppsspp-gpihook",
+    "description": "Emulates GPI switches normally found on developer hardware.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/ppsspp-gpihook.png",
+    "download": "plugins/files/ppsspp-gpihook.7z"
+  },
+  {
+    "slug": "cheatdeviceownthecity",
+    "title": "CheatDeviceOwnTheCity",
+    "description": "A cheat menu for Need For Speed Carbon: Own The City.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/cheatdeviceownthecity.png",
+    "download": "plugins/files/cheatdeviceownthecity.rar"
+  },
+  {
+    "slug": "tempar",
+    "title": "TempAR",
+    "description": "Plugin that enables cheats and hacks on PSP.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/tempar.png",
+    "download": "plugins/files/tempar.7z"
+  },
+  {
+    "slug": "psp-usb-video-class",
+    "title": "PSP USB Video Class",
+    "description": "Stream your PSP screen to your computer via USB (POC).",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/psp-usb-video-class.png",
+    "download": "plugins/files/psp-usb-video-class.7z"
+  },
+  {
+    "slug": "psp2-pu",
+    "title": "PSP2_PU",
+    "description": "Automatically picks up items in Phantasy Star Portable 2.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/psp2-pu.png",
+    "download": "plugins/files/psp2-pu.7z"
+  },
+  {
+    "slug": "dynafreq",
+    "title": "DynaFreq",
+    "description": "Change CPU clock frequency.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/dynafreq.png",
+    "download": "plugins/files/dynafreq.7z"
+  },
+  {
+    "slug": "joysens",
+    "title": "JoySens",
+    "description": "Mod of JoySens that allows custom sensitivity control over the PSP analog stick.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/joysens.png",
+    "download": "plugins/files/joysens.zip"
+  },
+  {
+    "slug": "pspdoc",
+    "title": "pspdoc",
+    "description": "A PSP/ePSP plugin to dump PSP DOCUMENT.DAT manuals to PNG images.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/pspdoc.png",
+    "download": "plugins/files/pspdoc.zip"
+  },
+  {
+    "slug": "ps1doc",
+    "title": "ps1doc",
+    "description": "A PSP plugin to dump PS1 DOCUMENT.DAT manuals to PNG images.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/ps1doc.png",
+    "download": "plugins/files/ps1doc.zip"
+  },
+  {
+    "slug": "npdrm-free",
+    "title": "npdrm_free",
+    "description": "A PSP/ePSP plugin to run official NPDRM PS1/PSP content without need of a valid .rif license or act.dat.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/npdrm-free.png",
+    "download": "plugins/files/npdrm-free.zip"
+  },
+  {
+    "slug": "gc-lite-game-categories-lite",
+    "title": "GC Lite (Game Categories Lite)",
+    "description": "Based on Game Categories Revised (GCR) and Game Categories Light (GCL) both created by Bubbletune.",
+    "compat": [
+      "1000",
+      "2000",
+      "3000",
+      "Go"
+    ],
+    "thumb": "plugins/thumbs/gc-lite-game-categories-lite.png",
+    "download": "plugins/files/gc-lite-game-categories-lite.7z"
   }
 ]
