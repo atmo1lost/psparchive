@@ -21,13 +21,13 @@
   },
   {
     "slug": "windows-xp",
-    "title": "Windows xp",
+    "title": "Windows XP",
     "description": "",
     "compat": [
       "PTF"
     ],
     "thumb": "themes/thumbs/winxp.png",
-    "download": "themes/files/WindowXP.ptf"
+    "download": "themes/files/WindowsXP.ptf"
   },
   {
     "slug": "echochrome-black",
@@ -57,6 +57,6 @@
       "PTF"
     ],
     "thumb": "themes/thumbs/hells-head.png",
-    "download": "themes/files/hells-head.bin"
+    "download": "themes/files/hells-head.ptf"
   }
 ]
