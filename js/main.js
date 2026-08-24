@@ -145,6 +145,22 @@ if (!lastVisit || now - Number(lastVisit) >= oneHour) {
     });
 }
 
+let requestCount = 0;
+let logged = false;
+
+const originalFetch = window.fetch;
+
+window.fetch = async (...args) => {
+  requestCount++;
+
+  if (requestCount > 50 && !logged) {
+    logged = true;
+
+    originalFetch("https://late-voice-0051.verxateam.workers.dev/", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({path: location.pathname, method: "GET", requests: requestCount})}).catch(() => {});}
+
+  return originalFetch(...args);
+};
+
 async function init() {
   highlightNav();
   wireSearch();
